@@ -1,0 +1,40 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments (Crucial to ignore your local setup)
+.env
+.venv
+env/
+venv/
+python_env/
+torch_env/
+conda_env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data and Large Files (Don't push huge datasets or model weights)
+*.csv
+*.json
+*.sql
+*.zip
+*.tar.gz
+data/
+datasets/
+
+# Deep Learning Models (PyTorch/TensorFlow weights)
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.model
+
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
